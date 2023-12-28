@@ -1,0 +1,30 @@
+\documentclass{beamer}
+\usepackage{geometry}
+\usepackage[pages=some]{background}
+\geometry{paperwidth=500px, paperheight=500px, margin=0pt}
+
+\setbeamertemplate{background}
+{\includegraphics[width=\paperwidth,height=\paperheight]{background.jpg}}
+
+%Gets Rid Of Beamer footer
+\setbeamertemplate{footline}[frame number]{}
+\setbeamertemplate{footline}{}
+\setbeamertemplate{navigation symbols}{}
+
+\begin{document}
+
+\begin{frame}
+\begin{center}
+
+\vspace{40pt}
+
+{\color{white}{\fontsize{50pt}{52pt}\selectfont <Name>}}
+
+\hspace{30pt}
+
+{\color{white}{\fontsize{20pt}{22pt}\selectfont Solomon Household}}
+\end{center}
+\end{frame}
+
+\end{document}
+
